@@ -1,0 +1,5 @@
+model,best_score,best_params,n_combinations,time_seconds
+DummyClassifier,0.4853418773371782,{'strategy': 'stratified'},2,1.0683472156524658
+RandomForestClassifier,0.6145147017339639,"{'max_depth': 10, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}",12,1.164912223815918
+XGBClassifier,0.6608038131940038,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'reg_lambda': 2, 'subsample': 0.8}",32,0.42318201065063477
+CatBoostClassifier,0.6479215640283567,"{'depth': 6, 'iterations': 100, 'l2_leaf_reg': 1, 'learning_rate': 0.1}",16,0.790930986404419
