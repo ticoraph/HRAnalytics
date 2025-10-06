@@ -1,5 +1,5 @@
 model,confusion_matrix
 DummyClassifier,"[[0, 185], [0, 36]]"
-RandomForestClassifier,"[[181, 4], [26, 10]]"
-XGBClassifier,"[[144, 41], [19, 17]]"
-CatBoostClassifier,"[[160, 25], [23, 13]]"
+RandomForestClassifier,"[[181, 4], [27, 9]]"
+XGBClassifier,"[[156, 29], [21, 15]]"
+CatBoostClassifier,"[[166, 19], [25, 11]]"
