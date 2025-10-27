@@ -4,7 +4,7 @@ RandomForestClassifier,max_depth,None
 RandomForestClassifier,max_features,sqrt
 RandomForestClassifier,min_samples_leaf,1
 RandomForestClassifier,min_samples_split,5
-RandomForestClassifier,n_estimators,200
+RandomForestClassifier,n_estimators,300
 XGBClassifier,colsample_bytree,0.8
 XGBClassifier,learning_rate,0.1
 XGBClassifier,max_depth,3

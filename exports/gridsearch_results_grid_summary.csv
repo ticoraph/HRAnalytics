@@ -1,5 +1,5 @@
 model,best_score,best_params,n_combinations,time_seconds
-DummyClassifier,0.5202362005296101,{'strategy': 'stratified'},3,1.8745930194854736
-RandomForestClassifier,0.5918545770692033,"{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}",720,74.65391421318054
-XGBClassifier,0.6374177139086494,"{'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200, 'reg_alpha': 0, 'reg_lambda': 1, 'subsample': 1.0}",972,23.76880717277527
-CatBoostClassifier,0.6359555835184808,"{'depth': 6, 'iterations': 200, 'l2_leaf_reg': 5, 'learning_rate': 0.05, 'subsample': 1.0}",162,17.196122884750366
+DummyClassifier,0.5202362005296101,{'strategy': 'stratified'},3,1.5990018844604492
+RandomForestClassifier,0.5884700328916477,"{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 300}",720,71.30608010292053
+XGBClassifier,0.6374177139086494,"{'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200, 'reg_alpha': 0, 'reg_lambda': 1, 'subsample': 1.0}",972,22.790080070495605
+CatBoostClassifier,0.6359555835184808,"{'depth': 6, 'iterations': 200, 'l2_leaf_reg': 5, 'learning_rate': 0.05, 'subsample': 1.0}",162,19.926136016845703
