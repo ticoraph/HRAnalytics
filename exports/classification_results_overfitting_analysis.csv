@@ -1,9 +1,0 @@
-model,method,train_accuracy,test_accuracy,accuracy_gap,train_f1_macro,test_f1_macro,f1_gap,overfitting
-DummyClassifier,train_test,0.16,0.16,-0.0,0.14,0.14,-0.0,NON
-DummyClassifier,cross_validation,0.84,0.84,0.0,0.46,0.46,0.0,NON
-RandomForestClassifier,train_test,1.0,0.86,0.14,1.0,0.62,0.38,OUI
-RandomForestClassifier,cross_validation,1.0,0.85,0.15,1.0,0.61,0.39,OUI
-XGBClassifier,train_test,0.82,0.75,0.07,0.73,0.62,0.11,NON
-XGBClassifier,cross_validation,0.89,0.85,0.04,0.72,0.62,0.1,NON
-CatBoostClassifier,train_test,0.87,0.76,0.11,0.81,0.61,0.2,OUI
-CatBoostClassifier,cross_validation,0.9,0.85,0.05,0.75,0.61,0.14,OUI
