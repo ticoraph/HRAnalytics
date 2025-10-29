@@ -1,5 +1,5 @@
 model,train_accuracy,test_accuracy,accuracy_gap,train_f1_macro,test_f1_macro,f1_gap,overfitting
 DummyClassifier,0.75,0.71,0.03,0.52,0.48,0.04,NON
-RandomForestClassifier,1.0,0.87,0.13,1.0,0.64,0.36,OUI
-XGBClassifier,0.93,0.86,0.07,0.83,0.64,0.19,OUI
-CatBoostClassifier,0.95,0.86,0.08,0.88,0.66,0.22,OUI
+RandomForestClassifier,0.96,0.86,0.1,0.91,0.63,0.28,OUI
+XGBClassifier,0.89,0.85,0.04,0.74,0.63,0.11,NON
+CatBoostClassifier,0.9,0.86,0.04,0.76,0.64,0.12,OUI

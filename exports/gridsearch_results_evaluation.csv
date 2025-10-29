@@ -1,5 +1,5 @@
 model,train_accuracy,test_accuracy,train_f1_macro,test_f1_macro,train_precision,test_precision,train_recall,test_recall,accuracy_gap,f1_gap,overfitting,confusion_matrix
 DummyClassifier,0.75,0.71,0.52,0.48,0.52,0.48,0.52,0.48,0.03,0.04,NON,"[[153, 32], [31, 5]]"
-RandomForestClassifier,1.0,0.87,1.0,0.64,1.0,0.88,1.0,0.61,0.13,0.36,OUI,"[[184, 1], [28, 8]]"
-XGBClassifier,0.93,0.86,0.83,0.64,0.95,0.76,0.77,0.61,0.07,0.19,OUI,"[[180, 5], [27, 9]]"
-CatBoostClassifier,0.95,0.86,0.88,0.66,0.97,0.79,0.83,0.63,0.08,0.22,OUI,"[[181, 4], [26, 10]]"
+RandomForestClassifier,0.96,0.86,0.91,0.63,0.97,0.8,0.87,0.6,0.1,0.28,OUI,"[[182, 3], [28, 8]]"
+XGBClassifier,0.89,0.85,0.74,0.63,0.87,0.73,0.69,0.61,0.04,0.11,NON,"[[179, 6], [27, 9]]"
+CatBoostClassifier,0.9,0.86,0.76,0.64,0.93,0.78,0.71,0.61,0.04,0.12,OUI,"[[181, 4], [27, 9]]"
